@@ -1,0 +1,114 @@
+{
+  "pages": [
+    {
+      "slug": "word-search",
+      "group": "make",
+      "caption": "Word Search",
+      "size": 15,
+      "difficulty": "diag",
+      "title": "Word Search Maker",
+      "blurb": "A free word search generator you can fill with your own words. Type any list into the box, pick a grid size and difficulty, and a fresh printable puzzle builds instantly — with a matching answer key you can show or hide.",
+      "tip": "Editing the word list rebuilds the grid. Spelling words, vocabulary, party names — anything you type gets hidden in the letters and marked correctly on the answer key.",
+      "words": ["PUZZLE", "SEARCH", "LETTER", "HIDDEN", "WORDS", "GRID", "CIRCLE", "ACROSS", "VERTICAL", "DIAGONAL", "BACKWARD", "SOLVE"]
+    },
+    {
+      "slug": "printable-word-search",
+      "group": "make",
+      "caption": "Printable Word Search",
+      "size": 15,
+      "difficulty": "diag",
+      "title": "Printable Word Search",
+      "blurb": "A ready-to-print word search with a clean grid and a word bank underneath. Print it as-is, or swap in your own words first — no download, no signup, and the answer key prints on its own page.",
+      "tip": "Great for classrooms and rainy afternoons. Bump the grid to 20 x 20 and turn on backwards words for older solvers, or keep it at across-and-down for beginners.",
+      "words": ["PRINT", "PAPER", "PENCIL", "PUZZLE", "CLASSROOM", "TEACHER", "STUDENT", "ACTIVITY", "WORKSHEET", "LETTERS", "HIDDEN", "SEARCH", "SOLVE", "GRID"]
+    },
+    {
+      "slug": "christmas-word-search",
+      "group": "holiday",
+      "caption": "Christmas Word Search",
+      "size": 15,
+      "difficulty": "diag",
+      "title": "Christmas Word Search",
+      "blurb": "A printable Christmas word search packed with holiday words — Santa, reindeer, stockings and more. Print it for a party, a classroom, or a quiet December afternoon, with an answer key ready when you need it.",
+      "tip": "Want it easier for little ones? Switch difficulty to across-and-down and drop to a 10 x 10 grid. You can also edit the word list to match your own family's traditions.",
+      "words": ["SANTA", "SLEIGH", "REINDEER", "RUDOLPH", "PRESENT", "STOCKING", "ORNAMENT", "SNOWMAN", "MISTLETOE", "GARLAND", "TINSEL", "WREATH", "CANDYCANE", "CAROLS", "HOLLY", "FROSTY"]
+    },
+    {
+      "slug": "halloween-word-search",
+      "group": "holiday",
+      "caption": "Halloween Word Search",
+      "size": 15,
+      "difficulty": "diag",
+      "title": "Halloween Word Search",
+      "blurb": "A spooky printable Halloween word search — pumpkins, witches, ghosts and skeletons hidden in the grid. Print copies for a class party or trick-or-treat downtime, answer key included.",
+      "tip": "For a creepier challenge, turn on backwards and diagonal words. For younger kids, keep it across-and-down and shrink the grid to 10 x 10.",
+      "words": ["PUMPKIN", "GHOST", "WITCH", "SKELETON", "VAMPIRE", "ZOMBIE", "SPIDER", "CANDY", "COSTUME", "HAUNTED", "SPOOKY", "GOBLIN", "CAULDRON", "MONSTER", "BROOMSTICK", "COBWEB"]
+    },
+    {
+      "slug": "thanksgiving-word-search",
+      "group": "holiday",
+      "caption": "Thanksgiving Word Search",
+      "size": 15,
+      "difficulty": "diag",
+      "title": "Thanksgiving Word Search",
+      "blurb": "A printable Thanksgiving word search full of the season's words — turkey, harvest, gratitude and the whole feast. A calm activity for the kids' table while dinner cooks, with an answer key on hand.",
+      "tip": "Edit the list to add your own family's dishes, or keep it as-is. Across-and-down at 10 x 10 works well for young solvers; add diagonals and backwards for a tougher puzzle.",
+      "words": ["TURKEY", "STUFFING", "PILGRIM", "HARVEST", "GRAVY", "PUMPKIN", "CRANBERRY", "FEAST", "AUTUMN", "GRATEFUL", "FAMILY", "MAYFLOWER", "CORNUCOPIA", "NOVEMBER", "SQUASH"]
+    },
+    {
+      "slug": "easter-word-search",
+      "group": "holiday",
+      "caption": "Easter Word Search",
+      "size": 15,
+      "difficulty": "diag",
+      "title": "Easter Word Search",
+      "blurb": "A printable Easter word search hopping with springtime words — bunnies, baskets, eggs and chicks. A sweet, screen-free activity for the holiday, with a show-or-hide answer key.",
+      "tip": "Keep it gentle for preschoolers with an across-and-down 10 x 10 grid, or make it a real hunt with diagonals and backwards words turned on.",
+      "words": ["BUNNY", "BASKET", "EGGS", "CHOCOLATE", "SPRING", "CHICK", "TULIP", "PARADE", "BONNET", "JELLYBEAN", "CARROT", "LAMB", "PASTEL", "SUNDAY"]
+    },
+    {
+      "slug": "valentines-word-search",
+      "group": "holiday",
+      "caption": "Valentine's Word Search",
+      "size": 15,
+      "difficulty": "diag",
+      "title": "Valentine's Day Word Search",
+      "blurb": "A printable Valentine's Day word search full of hearts, flowers and sweet words. Perfect for a classroom party or a lovey afternoon, and the answer key is a click away.",
+      "tip": "Make your own class set by editing the word list with your students' names. Easier for young kids with across-and-down; harder with diagonals and backwards words.",
+      "words": ["LOVE", "HEART", "CUPID", "ROSES", "CANDY", "FLOWERS", "ROMANCE", "KISSES", "CHOCOLATE", "SWEETHEART", "ADMIRER", "AFFECTION", "CARDS", "ARROW", "DARLING"]
+    },
+    {
+      "slug": "animals-word-search",
+      "group": "theme",
+      "caption": "Animals Word Search",
+      "size": 15,
+      "difficulty": "diag",
+      "title": "Animals Word Search",
+      "blurb": "A printable animals word search hiding elephants, tigers, penguins and more across the grid. A fun, educational activity for young animal lovers, with an answer key ready to check.",
+      "tip": "Swap in ocean animals, farm animals, or your kid's favorites by editing the word list. Across-and-down keeps it easy; add diagonals and backwards for a challenge.",
+      "words": ["ELEPHANT", "GIRAFFE", "MONKEY", "TIGER", "ZEBRA", "DOLPHIN", "KANGAROO", "PENGUIN", "LEOPARD", "RABBIT", "SQUIRREL", "HAMSTER", "OCTOPUS", "CHEETAH", "GORILLA", "TORTOISE"]
+    },
+    {
+      "slug": "space-word-search",
+      "group": "theme",
+      "caption": "Space Word Search",
+      "size": 15,
+      "difficulty": "diag",
+      "title": "Space Word Search",
+      "blurb": "A printable space word search launching planets, rockets, comets and astronauts into the grid. A stellar activity for budding space fans, with a hide-or-show answer key.",
+      "tip": "Perfect for a space-themed classroom unit. Edit the list to add planet names or mission words, and dial the difficulty up with diagonals and backwards words.",
+      "words": ["PLANET", "GALAXY", "ROCKET", "ASTRONAUT", "COMET", "METEOR", "SATURN", "JUPITER", "NEBULA", "ORBIT", "TELESCOPE", "GRAVITY", "ECLIPSE", "STARS", "SPACESHIP"]
+    },
+    {
+      "slug": "summer-word-search",
+      "group": "theme",
+      "caption": "Summer Word Search",
+      "size": 15,
+      "difficulty": "diag",
+      "title": "Summer Word Search",
+      "blurb": "A printable summer word search full of sunshine, beaches, popsicles and vacation words. A breezy activity for camp, road trips, or lazy afternoons, with an answer key on standby.",
+      "tip": "Print a stack for a summer camp or road trip. Keep it across-and-down for younger kids, or turn on diagonals and backwards words to slow down the fast solvers.",
+      "words": ["BEACH", "SUNSHINE", "VACATION", "SWIMMING", "POPSICLE", "SANDALS", "SEASHELL", "SUNSCREEN", "WATERMELON", "CAMPING", "LEMONADE", "PICNIC", "SURFING", "BONFIRE", "FLIPFLOPS"]
+    }
+  ]
+}
