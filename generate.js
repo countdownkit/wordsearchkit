@@ -186,7 +186,18 @@ for (const page of DATA.pages) {
   const body = `<p class="lead">Type any word list and a printable word search builds instantly — or grab a ready-made holiday or themed puzzle. Pick a grid size and difficulty, then print or save as a PDF from the print dialog. No downloads, no account, and every puzzle comes with a show-or-hide answer key.</p>
   ${sections}
   <div class="ad-slot no-print">Advertisement</div>
-  <div class="prose"><p>These are working puzzles, not template downloads: the grid you see on each page is the one that prints, and it rebuilds around whatever words you type. Change the grid size, allow diagonals and backwards words for a harder hunt, and the print stylesheet strips everything but the puzzle — with the answer key on its own page when you want it.</p></div>`;
+  <div class="prose"><p>These are working puzzles, not template downloads: the grid you see on each page is the one that prints, and it rebuilds around whatever words you type. Change the grid size, allow diagonals and backwards words for a harder hunt, and the print stylesheet strips everything but the puzzle — with the answer key on its own page when you want it.</p></div>
+  <div class="prose">
+    <h2>How to make your own word search</h2>
+    <p>Every puzzle here is editable. Open any page, clear the word list box, and type your own words one per line — the grid rebuilds the moment you change the list. That makes it easy to turn a week's spelling words, a set of vocabulary terms, or the names of everyone coming to a birthday party into a real printable puzzle. Each word needs at least two letters and can be no longer than the grid is wide; the tool uppercases everything and ignores spaces and punctuation, so "New York" simply becomes NEWYORK.</p>
+    <p>Three controls set the challenge. <b>Grid size</b> runs from 10 × 10 for a quick page up to 20 × 20 when you have a long list. <b>Difficulty</b> decides which directions words can hide: Easy places them across and down only, Medium adds diagonals, and Hard adds backwards words on top — so one word list can suit an early reader or an adult. When the layout looks right, press <b>Print</b>, or pick "Save as PDF" as the printer to keep a copy. The <b>New puzzle</b> button reshuffles the same words into a fresh grid.</p>
+    <h3>Frequently asked questions</h3>
+    <p><b>Can I use my own words?</b> Yes. Type any list into the word box, one word per line, and the puzzle is built from exactly those words. Nothing is uploaded or saved — the grid is generated right in your browser.</p>
+    <p><b>Is there an answer key?</b> Yes. Set the Answer key control to Show and a solved copy appears with every word highlighted where it sits. When you print, the key comes out on its own separate page, so you can hand out the puzzle without giving away the answers.</p>
+    <p><b>How do I make it easier for young kids?</b> Choose a 10 × 10 grid and set difficulty to Easy, which hides words across and down only — no diagonals or backwards spellings. A shorter list of shorter words also helps early readers finish without getting stuck.</p>
+    <p><b>Why isn't one of my words in the grid?</b> A word longer than the grid is wide can't fit, so it is dropped from both the puzzle and the word bank — the list never shows a word that isn't actually hidden. Switch to a larger grid to fit long entries.</p>
+    <p><b>Do I need to install or sign up for anything?</b> No. There are no downloads, accounts, or watermarks, and the tool is free to use as often as you like.</p>
+  </div>`;
   writePage(`/`, layout({ title, desc, urlPath: `/`, h1: `Free Printable Word Search Maker`, body }));
 }
 
